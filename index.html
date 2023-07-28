@@ -35,44 +35,22 @@
 </head>
 <body class="font-lato">
     <header class="relative">
-        <nav class="mx-20">
-            <div class="navbar bg-[#F85559] ">
+        <nav class="mx-20 mt-12">
+            <div class="navbar rounded-full bg-[#F85559] ">
                 <div class="navbar-start hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                      <li><a>Item 1</a></li>
-                      <li tabindex="0">
-                        <details>
-                          <summary>Parent</summary>
-                          <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                          </ul>
-                        </details>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
+                  <ul tabindex="0" class="flex gap-7 mx-10 text-white">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
                   </div>
-                <div class="navbar-center">
-                  <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                  <a class=" normal-case text-white font-semibold text-5xl">Fruit Burst</a>
+                <div class="navbar-center flex">
+                  <img src="images/logo.png" alt="">
+                  <a class=" normal-case text-white font-semibold text-4xl">Fruit Burst</a>
                 </div>
                 <div class="navbar-end">
-                    <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs" />
+                    <input type="text" placeholder="Type here" class="input rounded-full input-bordered input-primary border-none w-full max-w-xs" />
                     <i class="fa-solid relative -left-9 fa-magnifying-glass"></i>
                 </div>
               </div>
